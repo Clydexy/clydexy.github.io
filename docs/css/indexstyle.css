@@ -89,3 +89,6 @@
 	font-size: 10px;
 	color: gray;
 }
+.title, .description, .subtitle, .readmore{
+	padding-left: 10px;
+}
