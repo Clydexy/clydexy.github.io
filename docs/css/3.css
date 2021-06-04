@@ -18,6 +18,7 @@ canvas {
   height: 100%;
 }
 h1{
+  padding-top: 1vh;
 	padding-left: 1em;
 }
 p{
