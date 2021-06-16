@@ -37,6 +37,12 @@ p{
 }
 .pfp{
   border-radius: 50%;
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: 30%;
+}
+.quote{
+  padding-left: 5vw;
+  padding-right: 3vw;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 3em;
 }
