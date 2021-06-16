@@ -19,9 +19,9 @@ canvas {
 }
 h1{
   padding-top: 1em;
-	padding-left: 1em;
+	padding-left: 2vw;
 }
 p{
-	padding-left: 1em;
-	padding-right: 1em;
+  padding-right: 1em;
+	padding-left: 2vw;
 }

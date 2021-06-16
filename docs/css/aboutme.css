@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #eeeeee;
+
 }
 
 body {
@@ -23,8 +24,10 @@ canvas {
   z-index: -1;
 }
 h1{
-  padding-top: 1vh;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
 	padding-left: 1vw;
+  font-family: "Montserrat", sans-serif;
 }
 h2{
   padding top: 1vh;

@@ -17,7 +17,7 @@ function init(){
 
 	//Camera
 	camera  = new THREE.PerspectiveCamera(fov, aspect, near, far);
-	camera.position.set(0, -0.5, 4);
+	camera.position.set(0, -1, 50);
 
 	  const ambient = new THREE.AmbientLight(0x404040, 2);
   scene.add(ambient);
@@ -38,7 +38,7 @@ function init(){
 	console.log(aspect)
 	//load model
 	let loader = new THREE.GLTFLoader();
-	loader.load("./3dmodels/nike_air_zoom_pegasus_36/scene.gltf", function(gltf){
+	loader.load("./3dmodels/dream_computer_setup/scene.gltf", function(gltf){
 		scene.add(gltf.scene);
 		house = gltf.scene.children[0]
 		animate()
@@ -48,7 +48,7 @@ function init(){
 function animate() {
 	requestAnimationFrame(animate)
 	house.rotation.z += 0.01
-	house.rotation.y += 0.01
+	// house.rotation.y += 0.01
 	renderer.render(scene, camera)
 }
 init();
