@@ -17,13 +17,13 @@ function init(){
 
 	//Camera
 	camera  = new THREE.PerspectiveCamera(fov, aspect, near, far);
-	camera.position.set(-0, -100, 1000);
+	camera.position.set(-0, -0, 0);
 
 	  const ambient = new THREE.AmbientLight(0x404040, 2);
   scene.add(ambient);
 
   const light = new THREE.DirectionalLight(0xffffff, 2);
-  light.position.set(50, 50, 100);
+  light.position.set(0, 0, 0);
   scene.add(light);
 
 	//Renderer
